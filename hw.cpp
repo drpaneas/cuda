@@ -1,6 +1,3 @@
-# This reference_hw1 file is for your reference only. Any modifications or changes
-# to this code will not affect or alter your program's execution.
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/opencv.hpp>
