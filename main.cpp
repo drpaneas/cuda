@@ -1,6 +1,3 @@
-# This main file is for your reference only. Any modifications or changes
-# to this code will not affect or alter your program's execution.
-
 #include <iostream>
 #include "timer.h"
 #include "utils.h"
@@ -41,7 +38,7 @@ int main(int argc, char **argv) {
 
   GpuTimer timer;
   timer.Start();
-  //call the students' code
+  //call the grayscale code
   your_rgba_to_greyscale(h_rgbaImage, d_rgbaImage, d_greyImage, numRows(), numCols());
   timer.Stop();
   cudaDeviceSynchronize(); checkCudaErrors(cudaGetLastError());
