@@ -1,5 +1,5 @@
 #include <math.h>
-#include "reference_calc.cpp"
+#include "calc.cpp"
 #include "utils.h"
 #include <stdio.h>
 
