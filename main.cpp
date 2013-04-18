@@ -16,8 +16,8 @@ void postProcess(const std::string& output_file);
 void your_rgba_to_greyscale(const uchar4 * const h_rgbaImage, uchar4 * const d_rgbaImage,
                             unsigned char* const d_greyImage, size_t numRows, size_t numCols);
 
-//include the definitions of the above functions for this homework
-#include "HW1.cpp"
+//include the definitions of the above functions
+#include "HW.cpp"
 
 int main(int argc, char **argv) {
   uchar4        *h_rgbaImage, *d_rgbaImage;
